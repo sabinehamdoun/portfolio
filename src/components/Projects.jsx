@@ -22,25 +22,25 @@ export const projects = [
       title: "Portfolio",
       url: "https://6551a9ef7dbdf306d487e448--darling-paprenjak-28a773.netlify.app/",
       image: Cover2,
-      description: "Learn how to bake a 3D model with Blender and use it in r3f",
+      description: "Other portfolio using HTML, CSS, JavaScript & Bootstrap",
     },
     {
       title: "PixelPulse",
       url: "https://main--gorgeous-stroopwafel-ddd071.netlify.app/",
       image: Cover1,
-      description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
+      description: "Advertisement project using ReactJS, NextJS, & Tailwind CSS ",
     },
     {
       title: "JobNow",
       url: "https://main--splendorous-malasada-b1e307.netlify.app/",
       image: Cover4,
-      description: "Use React Three Fiber to create a 3D game",
+      description: "Website for job search using ReactJS & Tailwind CSS",
     },
     {
       title: "Random Website",
       url: "https://benevolent-crostata-9256d1.netlify.app/",
       image: Cover5,
-      description: "Create a loading screen for your r3f projects",
+      description: "ReactJS, Vanilla CSS",
     },
   ];
 

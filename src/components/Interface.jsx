@@ -427,8 +427,12 @@ const ContactSection = () => {
                     </form>
                     </div>
                     <div className="flex justify-center mt-7 gap-8">
+                      <a href="https://www.linkedin.com/in/sabine-hamdoun-8121ba21b/" target="_blank"> 
                       <img src={LinkedIn} style={{height: "30px" }}/>
+                      </a>
+                      <a href="https://github.com/sabinehamdoun" target="_blank"> 
                       <img src={GitH} style={{height: "30px" }}/>
+                      </a>
                     </div>
                 </div> 
             </div>
