@@ -4,41 +4,41 @@ import { animate, useMotionValue } from "framer-motion";
 import { motion } from "framer-motion-3d";
 import { atom, useAtom } from "jotai";
 import { useEffect, useRef } from "react";
-import Cover5 from "../assets/images/cover.jpg"
-import Cover1 from "../assets/images/cover2.webp"
-import Cover2 from "../assets/images/cover3.jpg"
-import Cover3 from "../assets/images/cover4.jpg"
-import Cover4 from "../assets/images/bootstrap-themes.png"
+import Cover5 from "../assets/images/log.jpg"
+import Cover1 from "../assets/images/pixel.jpg"
+import Cover2 from "../assets/images/portf.jpg"
+import Cover3 from "../assets/images/ecommerce.jpg"
+import Cover4 from "../assets/images/jobnow.jpg"
 
 
 export const projects = [
     {
-      title: "Sabine",
-      url: "https://r3f-wawatmos-final.vercel.app/",
+      title: "E-commerce",
+      url: "",
       image: Cover3,
-      description: "Recreating the Atmos Awards website with React Three Fiber",
+      description: "Coming Soon ...",
     },
     {
       title: "Portfolio",
-      url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
+      url: "https://6551a9ef7dbdf306d487e448--darling-paprenjak-28a773.netlify.app/",
       image: Cover2,
       description: "Learn how to bake a 3D model with Blender and use it in r3f",
     },
     {
-      title: "Website",
-      url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
+      title: "PixelPulse",
+      url: "https://main--gorgeous-stroopwafel-ddd071.netlify.app/",
       image: Cover1,
       description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
     },
     {
-      title: "Bootstrap",
-      url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+      title: "JobNow",
+      url: "https://main--splendorous-malasada-b1e307.netlify.app/",
       image: Cover4,
       description: "Use React Three Fiber to create a 3D game",
     },
     {
-      title: "Loader",
-      url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+      title: "Random Website",
+      url: "https://benevolent-crostata-9256d1.netlify.app/",
       image: Cover5,
       description: "Create a loading screen for your r3f projects",
     },
@@ -64,7 +64,7 @@ export const projects = [
                 <planeGeometry args={[2.7, 3.2]}/>
                 <meshBasicMaterial color="black" transparent opacity={0.4}/>
             </mesh>
-            <Image scale={[2, 1.6, 1]} url={project.image} toneMapped={false} position-y={0.3} />
+            <Image scale={[2.5, 1.4, 1]} url={project.image} toneMapped={false} position-y={0.3} />
             <Text maxWidth={2} anchorX={"left"} anchorY={"top"} fontSize={0.2} position={[-1, -0.6, 0]}>{project.title.toUpperCase()}</Text>
             <Text maxWidth={2} anchorX={"left"} anchorY={"top"} fontSize={0.15} position={[-1, -0.9, 0]}>{project.description}</Text>
         </group>
